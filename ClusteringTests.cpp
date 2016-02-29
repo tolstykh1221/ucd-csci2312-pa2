@@ -7,6 +7,7 @@
 #include <cassert>
 #include <iomanip>
 #include <fstream>
+#include <limits>
 
 #include "ClusteringTests.h"
 #include "Point.h"
@@ -771,7 +772,7 @@ void test_point_IO(ErrorContext &ec, unsigned int numRuns) {
     }
 }
 
-
+/*
 // - - - - - - - - - - C L U S T E R - - - - - - - - - -
 
 // Smoketest: constructor, copy constructor, destructor
@@ -1576,4 +1577,6 @@ void test_cluster_IO(ErrorContext &ec, unsigned int numRuns) {
             ec.result(pass);
         }
     }
+
 }
+ */
